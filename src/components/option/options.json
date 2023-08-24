@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_option_options",
+  "info": {
+    "displayName": "options"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

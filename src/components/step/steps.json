@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_step_steps",
+  "info": {
+    "displayName": "steps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "quizes": {
+      "displayName": "quizes",
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.quizes"
+    }
+  }
+}

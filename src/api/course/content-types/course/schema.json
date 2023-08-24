@@ -42,6 +42,11 @@
     },
     "isPayable": {
       "type": "boolean"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "step.steps"
     }
   }
 }
