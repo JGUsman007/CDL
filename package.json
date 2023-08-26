@@ -15,7 +15,9 @@
     "@strapi/plugin-i18n": "4.12.5",
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/strapi": "4.12.5",
+    "bcryptjs": "^2.4.3",
     "better-sqlite3": "8.5.0",
+    "joi": "^17.9.2",
     "strapi-stripe": "^3.4.1"
   },
   "author": {

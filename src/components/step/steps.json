@@ -21,6 +21,16 @@
       "type": "component",
       "repeatable": true,
       "component": "quiz.quizes"
+    },
+    "videos": {
+      "displayName": "videos",
+      "type": "component",
+      "repeatable": true,
+      "component": "videos.video"
+    },
+    "isComplete": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
