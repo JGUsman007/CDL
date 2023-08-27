@@ -31,6 +31,9 @@
     "isComplete": {
       "type": "boolean",
       "default": false
+    },
+    "score": {
+      "type": "number"
     }
   }
 }
