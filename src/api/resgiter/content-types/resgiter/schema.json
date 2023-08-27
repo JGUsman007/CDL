@@ -17,7 +17,8 @@
       "unique": true
     },
     "password": {
-      "type": "password"
+      "type": "password",
+      "private": true
     }
   }
 }

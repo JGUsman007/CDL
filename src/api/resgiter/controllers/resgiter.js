@@ -40,11 +40,14 @@ module.exports = createCoreController(
           password: hashedPassword,
         });
 
-        const user = await strapi.db
-          .query("api::resgiter.resgiter")
-          .create(ctx.request.body);
+        const user = await strapi.db.query("api::resgiter.resgiter").create({
+          data: {
+            email: email,
+            password: hashedPassword,
+          },
+        });
 
-        return ctx.send({ message: "User registered successfully!" });
+        return ctx.send({ message: "User registered successfully!", user });
       } catch (error) {
         console.error("Signup Error", error.status);
         ctx.throw(error.status, error.message);
